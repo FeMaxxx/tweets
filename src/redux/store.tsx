@@ -8,8 +8,12 @@ import {
   REGISTER,
 } from "redux-persist";
 
+import { usersSlice } from "./users/usersSlice";
+
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    users: usersSlice.reducer,
+  },
 
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
