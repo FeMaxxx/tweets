@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import { FC, useState } from "react";
 import { User } from "../../types/users";
 import { UserItem } from "../UserItem";
 import { List, LoadMoreBtn } from "./UsersList.styled";

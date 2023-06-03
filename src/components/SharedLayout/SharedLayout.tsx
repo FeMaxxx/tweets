@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import { Header, Container, Main, Button } from "./SharedLayout.styled";

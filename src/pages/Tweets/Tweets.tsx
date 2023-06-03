@@ -1,4 +1,4 @@
-import React, { useState, useEffect, FC, ChangeEvent } from "react";
+import { useState, useEffect, FC, ChangeEvent } from "react";
 import { useActions } from "../../hooks/useActions";
 import { useUsers } from "../../hooks/useUsers";
 import { UsersList } from "../../components/UsersList";

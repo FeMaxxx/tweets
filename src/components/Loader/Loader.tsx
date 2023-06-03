@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Container, Load } from "./Loader.styled";
 
 export const Loader: FC = () => {

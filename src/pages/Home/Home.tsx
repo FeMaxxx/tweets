@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Button, Container, Title } from "./Home.styled";
 
 const Home: FC = () => {
