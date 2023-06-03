@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tweets/static/css/main.d547b693.css",
-    "main.js": "/tweets/static/js/main.f6379a47.js",
-    "static/js/963.58342282.chunk.js": "/tweets/static/js/963.58342282.chunk.js",
-    "static/js/902.134aa54c.chunk.js": "/tweets/static/js/902.134aa54c.chunk.js",
-    "static/media/Montserrat-SemiBold.ttf": "/tweets/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
-    "static/media/Montserrat-Medium.ttf": "/tweets/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
-    "static/media/picture1.png": "/tweets/static/media/picture1.b3d9942b3f9d5dad1ff0.png",
-    "index.html": "/tweets/index.html",
-    "main.d547b693.css.map": "/tweets/static/css/main.d547b693.css.map",
-    "main.f6379a47.js.map": "/tweets/static/js/main.f6379a47.js.map",
-    "963.58342282.chunk.js.map": "/tweets/static/js/963.58342282.chunk.js.map",
-    "902.134aa54c.chunk.js.map": "/tweets/static/js/902.134aa54c.chunk.js.map"
+    "main.css": "/test/static/css/main.db8396f8.css",
+    "main.js": "/test/static/js/main.f7d86212.js",
+    "static/js/963.30b66bd1.chunk.js": "/test/static/js/963.30b66bd1.chunk.js",
+    "static/js/902.7ed8be2e.chunk.js": "/test/static/js/902.7ed8be2e.chunk.js",
+    "static/media/Montserrat-SemiBold.ttf": "/test/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-Medium.ttf": "/test/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/picture1.png": "/test/static/media/picture1.b3d9942b3f9d5dad1ff0.png",
+    "index.html": "/test/index.html",
+    "main.db8396f8.css.map": "/test/static/css/main.db8396f8.css.map",
+    "main.f7d86212.js.map": "/test/static/js/main.f7d86212.js.map",
+    "963.30b66bd1.chunk.js.map": "/test/static/js/963.30b66bd1.chunk.js.map",
+    "902.7ed8be2e.chunk.js.map": "/test/static/js/902.7ed8be2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d547b693.css",
-    "static/js/main.f6379a47.js"
+    "static/css/main.db8396f8.css",
+    "static/js/main.f7d86212.js"
   ]
 }
