@@ -1,20 +1,20 @@
-import { useState, useEffect, FC, ChangeEvent } from "react";
-import { useActions } from "../../hooks/useActions";
-import { useUsers } from "../../hooks/useUsers";
-import { UsersList } from "../../components/UsersList";
-import { Loader } from "../../components/Loader";
-import { BackBtn, Select, WrapContainer } from "./Tweets.styled";
-import { User } from "../../types/users";
+import { useState, useEffect, FC, ChangeEvent } from 'react';
+import { useActions } from '../../hooks/useActions';
+import { useUsers } from '../../hooks/useUsers';
+import { UsersList } from '../../components/UsersList';
+import { Loader } from '../../components/Loader';
+import { BackBtn, Select, WrapContainer } from './Tweets.styled';
+import { User } from '../../types/users';
 
 const getVisibleUsers = (users: User[], follow: string[], filter: string) => {
-  if (filter === "follow") {
-    return users.filter((user) => {
+  if (filter === 'follow') {
+    return users.filter(user => {
       return follow.includes(user.id);
     });
   }
 
-  if (filter === "unfollow") {
-    return users.filter((user) => {
+  if (filter === 'unfollow') {
+    return users.filter(user => {
       return !follow.includes(user.id);
     });
   }
@@ -25,11 +25,12 @@ const getVisibleUsers = (users: User[], follow: string[], filter: string) => {
 const Tweets: FC = () => {
   const { getUsers } = useActions();
   const { users, loading, error, follow } = useUsers();
-  const [filter, setFilter] = useState("all");
+  const [filter, setFilter] = useState('all');
 
   useEffect(() => {
     if (users.length) return;
     getUsers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleFilterChange = (e: ChangeEvent<HTMLSelectElement>) => {
@@ -41,7 +42,7 @@ const Tweets: FC = () => {
   return (
     <div>
       <WrapContainer>
-        <BackBtn to={"/"}>Back</BackBtn>
+        <BackBtn to={'/'}>Back</BackBtn>
 
         {users.length !== 0 && !loading && (
           <Select id="dropdown" value={filter} onChange={handleFilterChange}>
