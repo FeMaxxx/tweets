@@ -23,6 +23,8 @@ export const Select = styled.select`
   font-family: "Montserrat";
   font-size: 18px;
 
+  transition: background-color 200ms ease-out;
+
   &:hover,
   &:focus {
     background-color: #321180;
